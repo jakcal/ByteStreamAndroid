@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## ByteStream
 
-You can use the [editor on GitHub](https://github.com/jakcal/ByteStreamAndroid/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+At first, it was only a part of the [Yam tv App](http://bit.ly/2SxjhKD) as Scrapper that can easily get the direct streaming URL from various video hosting websites such as Fembed/Upstream/Vup.to… and much much more but now it's a standAlone app that is connected with firebase and he can play any video at the same time from any device at the realtime.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Screenshots
+<img src="https://github.com/jakcal/APPS/raw/master/img/byte/Screenshot_1581351683.png" width="270" height="480">
+<img src="https://github.com/jakcal/APPS/raw/master/img/byte/Screenshot_1581351691.png" width="270" height="480">
+<img src="https://github.com/jakcal/APPS/raw/master/img/byte/Screenshot_1581352001.png" width="270" height="480">
+<img src="https://github.com/jakcal/APPS/raw/master/img/byte/Screenshot_1581351769.png" width="1000" height="480">
 
-### Markdown
+## Supported websites
+Bytestream currently supports more than **120 hosting websites** and the numbers are growing by the day.
+Some of the supported websites : 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ 1. ViduPlayer
+ 2. VideoBin
+ 3. MixDrop
+ 4. Fembed(and all its subdomains)
+ 5. GoUnlimited
+ 6. UptoBox
+ 7. Upstream
+ 8. Moshahada
+ 9. GdrivePlayer/Google drive/Ok.ru/Aflamyz/Vup.to/Mixdrop
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jakcal/ByteStreamAndroid/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We are adding more than 5 websites per day to the app through our Node.js server which is the main server and the app work only as a client-side for the server. Although there is an option of using the local scrapper in case the server(and all the backup ones) is down.
